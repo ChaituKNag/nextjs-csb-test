@@ -5,10 +5,12 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "post-update": "yarn upgrade --latest"
+    "post-update": "yarn upgrade --latest",
+    "postbuild": "next-on-netlify"
   },
   "dependencies": {
     "next": "latest",
+    "next-on-netlify": "2.6.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
